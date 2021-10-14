@@ -21,5 +21,10 @@ namespace Enbridge.Model
             Age = age;
             Alive = alive;
         }
+
+        public string Print()
+        {
+            return ($"{First},{Last},{Phone},{Age},{Alive}");
+        }
     }
 }
